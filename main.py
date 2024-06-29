@@ -8,7 +8,7 @@ def main():
     if result < 0:
         print(f'The result {result} is an odd number')
     
-    else result > 0
+    else :
         print(f'The result {result} is an even number')
 
 
