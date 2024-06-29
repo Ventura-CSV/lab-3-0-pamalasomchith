@@ -2,14 +2,19 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
-    result = int(input('Enter one number: '))
+    number = int(input('Enter one number: '))
+    if (number % 2) == 0:
+        result = 0
     
-
-    if result < 0:
-        print(f'The result {result} is an odd number')
+    else:
+        result = 1
     
-    else :
-        print(f'The result {result} is an even number')
+         
+    if result:
+        print(f'The result is {result}')
+    
+    else:
+        print(f'The result is {result}')
 
 
     ########################################
