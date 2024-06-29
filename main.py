@@ -4,10 +4,10 @@ def main():
     ##################################################
     number = int(input('Enter one integer value: '))
 
-    if number < 0:
+    if number < 0 :
         print(f'The value {number} is an odd number')
     
-    else number > 0:
+    else number > 0 :
         print(f'The value {number} is an even number')
 
 
