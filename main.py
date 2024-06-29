@@ -2,16 +2,14 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
-    number = int(input('Enter your input: '))
+    number = int(input('Enter one integer value: '))
 
-    """
-    Make your code here
-    """
-
-    if result:
+    if number < 0:
         print(f'The value {number} is an odd number')
-    else:
+    
+    else number > 0:
         print(f'The value {number} is an even number')
+
 
     ########################################
     # Do not delete the return statement
